@@ -1,0 +1,118 @@
+# Dzienniki
+dzienniki
+* .log
+npm-debug.log *
+włóczka-debug.log *
+włóczka-błąd.log *
+lerna-debug.log *
+.pnpm-debug.log *
+
+# Raporty diagnostyczne (https://nodejs.org/api/report.html)
+raport. [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * .json
+
+# Dane wykonawcze
+pidy
+* .pid
+* .nasion
+* .pid.lock
+
+# Katalog dla oprzyrządowanych bibliotek generowanych przez jscoverage/JSCover
+lib-cov
+
+# Katalog pokrycia używany przez narzędzia takie jak istanbul
+pokrycie
+* .lcov
+
+# pokrycie testowe nyc
+.nyc_wyjście
+
+# Magazyn pośredni Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.chrząknięcie
+
+# Katalog zależności Bowera (https://bower.io/)
+bower_components
+
+# konfiguracja node-waf
+.lock-wscript
+
+# Skompilowane dodatki binarne (https://nodejs.org/api/addons.html)
+kompilacja / wydanie
+
+# katalogi zależności
+node_modules /
+jspm_pakiety /
+
+# Katalog zależności Snowpack (https://snowpack.dev/)
+web_modules /
+
+# Pamięć podręczna TypeScript
+* .tsbuildinfo
+
+# Opcjonalny katalog pamięci podręcznej npm
+.npm
+
+# Opcjonalna pamięć podręczna eslint
+.eslintcache
+
+# Pamięć podręczna mikrozestawów
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Opcjonalna historia REPL
+.node_repl_history
+
+# Wyjście 'pakietu npm'
+* .tgz
+
+# Plik integralności przędzy
+.integralność przędzy
+
+# plik zmiennych środowiskowych dotenv
+.env
+.env.test
+.env.produkcja
+
+# cache-paczka paczek (https://parceljs.org/)
+.Pamięć podręczna
+.paczka-paczka
+
+# Wyjście kompilacji Next.js
+.Kolejny
+na zewnątrz
+
+# Budowanie / generowanie danych wyjściowych Nuxt.js
+.nuxt
+odległość
+
+# Pliki Gatsby
+pamięć podręczna /
+# Komentarz w linii publicznej, jeśli twój projekt używa Gatsby, a nie Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# publiczne
+
+# vuepress kompilacja danych wyjściowych
+.vuepress / dist
+
+# Katalogi bezserwerowe
+.bezserwerowy /
+
+# Pamięć podręczna FuseBox
+skrzynka bezpieczników /
+
+# Lokalne pliki DynamoDB
+.dynamodb /
+
+# Plik portu TernJS
+.tern-port
+
+# Przechowuje wersje VSCode używane do testowania rozszerzeń VSCode
+.vscode-test
+
+# włóczka v2
+.przędza / pamięć podręczna
+.przędza / odłączona
+.yarn / stan kompilacji.yml
+.yarn / stan instalacji.gz
+.pnp. *
